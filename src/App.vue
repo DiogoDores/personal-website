@@ -40,4 +40,26 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: .8em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: $color-light; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(145, 145, 145);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(129, 129, 129); 
+}
 </style>
