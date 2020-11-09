@@ -2,6 +2,7 @@
   <div id="app">
     <Banner></Banner>
     <About></About>
+    <!--<LineBreak></LineBreak>-->
     <Experience></Experience>
     <Projects></Projects>
     <Skills></Skills>
@@ -16,6 +17,7 @@ import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
 import Skills from './components/Skills.vue'
 import Contacts from './components/Contacts.vue'
+//import LineBreak from './components/LineBreak.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     Experience,
     Projects,
     Skills,
-    Contacts
+    Contacts,
+    //LineBreak
   }
 }
 </script>
@@ -39,6 +42,24 @@ export default {
     font-family: $font-title;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    h1.section-title{
+      font-family: $font-text;
+      font-size: 3em;
+      font-weight: 400;
+      text-transform: lowercase;
+
+      &::before,
+      &::after{
+        display: inline-block;
+        content: "";
+        border-top: .4rem solid $color-dark;
+        width: 5rem;
+        border-radius: 1em;
+        margin: 0 1.5rem;
+        transform: translateY(-0.5rem);
+      }
+    }
   }
 
   /* width */
@@ -60,6 +81,6 @@ export default {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(129, 129, 129); 
+  background: rgb(129, 129, 129);
 }
 </style>

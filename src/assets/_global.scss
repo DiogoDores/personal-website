@@ -12,3 +12,6 @@ $color-light: #A8C2C3;
 $color-secondary: #E4EFFF;
 $color-text-light: #FFFFFF;
 $color-text-dark: #000000;
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';

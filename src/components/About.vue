@@ -1,12 +1,25 @@
 <template>
-  <div id="about">
-    <div class="text">
-        about me
-    </div>
-    <div class="image">
-        <img src="../assets/ID_Card.svg"/>
-    </div>
-  </div>
+  <b-row id="about">
+
+    <b-col class="text">
+        <h1 class="section-title">About Me</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus odio magna, ac sagittis leo ultrices eu.
+            Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
+            velit ligula fermentum dui, ut feugiat nulla tellus at est. Integer sit amet urna vitae tortor rutrum tristique.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus odio magna, ac sagittis leo ultrices eu.
+            Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
+            velit ligula fermentum dui, ut feugiat nulla tellus at est. Integer sit amet urna vitae tortor rutrum tristique.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus odio magna, ac sagittis leo ultrices eu.
+            Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
+            velit ligula fermentum dui, ut feugiat nulla tellus at est. Integer sit amet urna vitae tortor rutrum tristique.
+          </p>
+    </b-col>
+    
+    <b-col class="d-flex align-items-center">
+      <img id="id_card" src="../assets/ID_Card.svg"/>
+    </b-col>
+  </b-row>
 </template>
 
 <script>
@@ -16,21 +29,32 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    #about{
-        display: flex;
-        justify-content: space-around;
-        margin: 6em 5em;
+  #about{
+    margin: 7em 7em;
+    display: flex;
+
+    .text {
+
+        h1{
+          text-align: center;
+          margin-bottom: 1em;
+        }
+    
+        p{
+          text-align: center;
+          font-size: 17px;
+          line-height: 1.5em;
+        }
+
     }
 
-    img{
-        width: 200%;
-        transform: rotate(15deg);
-        margin-right: 2em;
+    img#id_card{
+      width: 70%;
+      transform: rotate(15deg);
+      display: block;
+      margin: auto;
     }
+  }
 
-    .text{
-        font-family: $font-text;
-        font-size: 3em;
-        font-weight: 400;
-    }
+
 </style>
