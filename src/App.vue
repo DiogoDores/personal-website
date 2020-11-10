@@ -2,9 +2,11 @@
   <div id="app">
     <Banner></Banner>
     <About></About>
-    <!--<LineBreak></LineBreak>-->
+    <LineBreak></LineBreak>
     <Experience></Experience>
+    <LineBreak></LineBreak>
     <Projects></Projects>
+    <LineBreak></LineBreak>
     <Skills></Skills>
     <Contacts></Contacts>
   </div>
@@ -17,7 +19,7 @@ import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
 import Skills from './components/Skills.vue'
 import Contacts from './components/Contacts.vue'
-//import LineBreak from './components/LineBreak.vue'
+import LineBreak from './components/LineBreak.vue'
 
 export default {
   name: 'App',
@@ -28,7 +30,7 @@ export default {
     Projects,
     Skills,
     Contacts,
-    //LineBreak
+    LineBreak
   }
 }
 </script>
@@ -48,6 +50,12 @@ export default {
       font-size: 3em;
       font-weight: 400;
       text-transform: lowercase;
+      text-align: center;
+      margin-bottom: 2em;
+
+      &.small{
+        margin-bottom: 1em;
+      }
 
       &::before,
       &::after{
@@ -58,6 +66,14 @@ export default {
         border-radius: 1em;
         margin: 0 1.5rem;
         transform: translateY(-0.5rem);
+      }
+    }
+
+    .section{
+      margin: 7em 20em;
+
+      &.small{
+        margin: 7em 15em;
       }
     }
   }

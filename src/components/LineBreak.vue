@@ -1,5 +1,5 @@
 <template>
-    <div class="text">&lt;hr&gt;</div>
+    <div class="text"><span>&lt;hr&gt;</span></div>
 </template>
 
 <script>
@@ -10,22 +10,19 @@ export default {
 
 <style scoped lang="scss">
   .text{
-    font-family: $font-text;
-    font-size: 1em;
-    font-weight: 400;
+      width: 95%;
+      border-bottom: 2px solid $color-dark;
+      border-radius: 5em;
+      line-height: 0.1em;
+      padding: 0 2em;
+      margin: auto;
+      font-family: $font-text;
 
-    &::before,
-    &::after{
-    display: inline-block;
-    content: "";
-    border-top: .1rem solid $color-dark;
-    width: 5rem;
-    margin: 0 1rem;
-    transform: translateY(-0.15rem);
-    }
-
-    &::after{
-        width: 80vw;
-    }
+      span{
+        position: relative;
+        left: 3em;
+        background:#fff; 
+        padding: 0 10px; 
+      }
   }
 </style>

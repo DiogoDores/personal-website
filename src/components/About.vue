@@ -1,8 +1,8 @@
 <template>
-  <b-row id="about">
+  <b-row id="about" class="section small">
 
     <b-col class="text">
-        <h1 class="section-title">About Me</h1>
+        <h1 class="section-title small">About Me</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus odio magna, ac sagittis leo ultrices eu.
             Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
@@ -30,16 +30,9 @@ export default {
 
 <style scoped lang="scss">
   #about{
-    margin: 7em 7em;
     display: flex;
 
     .text {
-
-        h1{
-          text-align: center;
-          margin-bottom: 1em;
-        }
-    
         p{
           text-align: center;
           font-size: 17px;
