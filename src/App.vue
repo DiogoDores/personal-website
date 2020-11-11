@@ -45,6 +45,7 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+
     h1.section-title{
       font-family: $font-text;
       font-size: 3em;
@@ -70,10 +71,10 @@ export default {
     }
 
     .section{
-      margin: 7em 20em;
+      margin: 10em 20em;
 
       &.small{
-        margin: 7em 15em;
+        margin: 10em 15em;
       }
     }
   }
