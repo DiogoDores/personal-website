@@ -29,22 +29,41 @@
     <div class="section-container">
       <div class="section-name"><span>Activities</span></div>
       <div class="section-content">
-          <div class="exp-title">Tutor</div>
+          <div class="exp-title">IEEE UP SB's Head of Brading Department</div>
 
           <div class="exp-desc"> 
-            Worked a total of 2 months (45 weekly hours, 5 days a week) as a tutor for the University of Porto, 
-            in a program called "Universidade Júnior".
-            Taught students from the 8th grade how to program in Python with a Raspberry Pi.
+            This role required me to be responsible for the branding, as well as managing social
+             media accounts and creating an overall distinct image for the IEEE University of Porto Student Branch.
           </div>
 
           <div class="exp-others"> 
             <span class="exp-calendar">
               <font-awesome-icon class="icon" icon="calendar-alt" />
-              <p>2018-2019</p>
+              <p>2020-present</p>
             </span>
             <span class="exp-location">
               <font-awesome-icon class="icon" icon="map-marker-alt" />
-              <p>Faculdade de Engenharia da Universidade do Porto (FEUP)</p>
+              <p>IEEE University of Porto Student Branch</p>
+            </span>
+          </div>
+      </div>
+      <div class="section-content">
+          <div class="exp-title">IEEE UP SB's Computer Society Vice-President</div>
+
+          <div class="exp-desc"> 
+            This role required me to actively participate in the organization of technical workshops and talks,
+             which are tutored by chapter members or experienced invited speakers, and even competitions,
+             which attracted many participants and highlighted the importance of the chapter within the academic community.
+          </div>
+
+          <div class="exp-others"> 
+            <span class="exp-calendar">
+              <font-awesome-icon class="icon" icon="calendar-alt" />
+              <p>2019-2020</p>
+            </span>
+            <span class="exp-location">
+              <font-awesome-icon class="icon" icon="map-marker-alt" />
+              <p>IEEE University of Porto Student Branch</p>
             </span>
           </div>
       </div>
@@ -96,15 +115,16 @@
           <div class="exp-title">Master in Informatics and Computing</div>
 
           <div class="exp-desc"> 
-            Worked a total of 2 months (45 weekly hours, 5 days a week) as a tutor for the University of Porto, 
-            in a program called "Universidade Júnior".
-            Taught students from the 8th grade how to program in Python with a Raspberry Pi.
+              A course divided into two cycles, where, in the first one, 
+              I aquired a solid base instruction comprising not only of the essential scientific and engineering skills, 
+              but also a wideband fundamental knowledge in several domains of informatics. The last cycle consists of a specilization in
+              a few, individually configurable, areas, where I chose to broaden my knowledge in, mainly, the Software Engineering and Multimedia domains.
           </div>
 
           <div class="exp-others"> 
             <span class="exp-calendar">
               <font-awesome-icon class="icon" icon="calendar-alt" />
-              <p>2015-2021</p>
+              <p>2015-present</p>
             </span>
             <span class="exp-location">
               <font-awesome-icon class="icon" icon="map-marker-alt" />
