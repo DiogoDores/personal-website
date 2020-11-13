@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: 'Banner',
+  name: 'About',
 }
 </script>
 

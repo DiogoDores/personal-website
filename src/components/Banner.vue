@@ -2,11 +2,11 @@
   <div id="banner">
     <div id="navbar">
       <ul>
-        <li>About Me</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contacts</li>
+        <li><a v-scroll-to="'#about'">About Me</a></li>
+        <li><a v-scroll-to="'#experience'">Experience</a></li>
+        <li><a v-scroll-to="'#projects'">Projects</a></li>
+        <li><a v-scroll-to="'#skills'">Skills</a></li>
+        <li><a v-scroll-to="'#contacts'">Contacts</a></li>
       </ul>
     </div>
 
@@ -40,7 +40,6 @@ export default {
 
         li{
           display: inline; 
-          color: $color-text-light;
           font-size: 1.3em;
           text-transform: lowercase;
           font-weight: 300;
@@ -59,6 +58,11 @@ export default {
           &:hover{
             cursor: pointer;
             &::before{ width: 100%; }
+          }
+
+          a{
+            text-decoration: none;
+            color: $color-text-light;
           }
         }
       }

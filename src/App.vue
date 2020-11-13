@@ -71,10 +71,10 @@ export default {
     }
 
     .section{
-      margin: 10em 20em;
+      margin: 7em 20em;
 
       &.small{
-        margin: 10em 15em;
+        margin: 7em 15em;
       }
     }
   }

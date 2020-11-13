@@ -157,7 +157,7 @@
 
 <script>
 export default {
-  name: 'Banner',
+  name: 'Experience',
 }
 </script>
 
