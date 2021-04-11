@@ -29,7 +29,7 @@
     <div class="section-container">
       <div class="section-name"><span>Activities</span></div>
       <div class="section-content">
-          <div class="exp-title">IEEE UP SB's Head of Brading Department</div>
+          <div class="exp-title">IEEE UP SB's Head of Communications and Branding Department</div>
 
           <div class="exp-desc"> 
             This role required me to be responsible for the branding, as well as managing social
@@ -85,7 +85,7 @@
             </span>
             <span class="exp-location">
               <font-awesome-icon class="icon" icon="map-marker-alt" />
-              <p>Ramalde, Porto</p>
+              <p>Ramalde, Porto, Portugal</p>
             </span>
           </div>
       </div>
@@ -189,17 +189,18 @@ export default {
 
         .section-content{
             padding: 2em;
-            border-left: 1px solid $color-dark;
-            border-right: 1px solid $color-dark;
-            border-bottom: 1px dashed $color-dark;
-
+            
             &:nth-child(2){
-              border-radius: 0 1em 0 0;
-              border-top: 1px solid $color-dark;
+              border-top-right-radius: 30px;
             }
 
-            &:last-child {
-              border-bottom: 1px solid $color-dark;
+            &:not(:last-child){
+              box-shadow:  5px 12px 15px $color-shadow;
+            }
+
+            &:last-child{
+              box-shadow:  5px 12px 15px $color-shadow,
+                        20px 20px 15px $color-text-light;
             }
 
             &:nth-child(even){

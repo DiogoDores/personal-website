@@ -8,11 +8,6 @@
             Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
             velit ligula fermentum dui, ut feugiat nulla tellus at est. Integer sit amet urna vitae tortor rutrum tristique.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus odio magna, ac sagittis leo ultrices eu.
-            Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
-            velit ligula fermentum dui, ut feugiat nulla tellus at est. Integer sit amet urna vitae tortor rutrum tristique.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus odio magna, ac sagittis leo ultrices eu.
-            Aliquam nec tortor vitae justo dapibus vulputate vel eget odio. Sed dignissim, urna ac sollicitudin dapibus, 
-            velit ligula fermentum dui, ut feugiat nulla tellus at est. Integer sit amet urna vitae tortor rutrum tristique.
           </p>
     </b-col>
     
@@ -36,7 +31,7 @@ export default {
         p{
           text-align: center;
           font-size: 17px;
-          line-height: 1.5em;
+          line-height: 2em;
         }
 
     }

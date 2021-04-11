@@ -10,7 +10,7 @@ export default {
 
 <style scoped lang="scss">
   .text{
-      width: 95%;
+      width: 70%;
       border-bottom: 2px solid $color-dark;
       border-radius: 5em;
       line-height: 0.1em;

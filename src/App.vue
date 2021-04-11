@@ -5,8 +5,6 @@
     <LineBreak></LineBreak>
     <Experience></Experience>
     <LineBreak></LineBreak>
-    <Projects></Projects>
-    <LineBreak></LineBreak>
     <Skills></Skills>
     <Contacts></Contacts>
   </div>
@@ -16,7 +14,6 @@
 import Banner from './components/Banner.vue'
 import About from './components/About.vue'
 import Experience from './components/Experience.vue'
-import Projects from './components/Projects.vue'
 import Skills from './components/Skills.vue'
 import Contacts from './components/Contacts.vue'
 import LineBreak from './components/LineBreak.vue'
@@ -27,7 +24,6 @@ export default {
     Banner,
     About,
     Experience,
-    Projects,
     Skills,
     Contacts,
     LineBreak
@@ -46,7 +42,7 @@ export default {
     -moz-osx-font-smoothing: grayscale;
 
 
-    h1.section-title{
+    h1.section-title, div.section-title{
       font-family: $font-text;
       font-size: 3em;
       font-weight: 400;
@@ -71,10 +67,10 @@ export default {
     }
 
     .section{
-      margin: 7em 20em;
+      margin: 7em 30em;
 
       &.small{
-        margin: 7em 15em;
+        margin: 7em 30em;
       }
     }
   }
