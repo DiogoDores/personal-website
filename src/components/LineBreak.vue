@@ -1,5 +1,5 @@
 <template>
-    <div class="text"><span>&lt;hr&gt;</span></div>
+    <b-container class="text"><span>&lt;hr&gt;</span></b-container>
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
 
 <style scoped lang="scss">
   .text{
-      width: 70%;
+      width: 100%;
       border-bottom: 2px solid $color-dark;
       border-radius: 5em;
       line-height: 0.1em;

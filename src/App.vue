@@ -2,11 +2,10 @@
   <div id="app">
     <Banner></Banner>
     <About></About>
-    <LineBreak></LineBreak>
     <Experience></Experience>
-    <LineBreak></LineBreak>
-    <Skills></Skills>
-    <Contacts></Contacts>
+    <LineBreak id="lb"></LineBreak>
+    <Projects></Projects>
+    <!-- <Contacts></Contacts> -->
   </div>
 </template>
 
@@ -14,8 +13,8 @@
 import Banner from './components/Banner.vue'
 import About from './components/About.vue'
 import Experience from './components/Experience.vue'
-import Skills from './components/Skills.vue'
-import Contacts from './components/Contacts.vue'
+import Projects from './components/Projects.vue'
+// import Contacts from './components/Contacts.vue'
 import LineBreak from './components/LineBreak.vue'
 
 export default {
@@ -24,17 +23,14 @@ export default {
     Banner,
     About,
     Experience,
-    Skills,
-    Contacts,
-    LineBreak
+    Projects,
+    // Contacts,
+    LineBreak,
   }
 }
 </script>
 
 <style lang="scss">
-  body{
-    margin: 0;
-  }
 
   #app {
     font-family: $font-title;
@@ -42,58 +38,56 @@ export default {
     -moz-osx-font-smoothing: grayscale;
 
 
-    h1.section-title, div.section-title{
-      font-family: $font-text;
-      font-size: 3em;
-      font-weight: 400;
-      text-transform: lowercase;
-      text-align: center;
-      margin-bottom: 2em;
+      h1.section-title, div.section-title{
+        font-family: $font-text;
+        font-size: 3em;
+        font-weight: 400;
+        text-transform: lowercase;
+        text-align: center;
+        margin-bottom: 2em;
 
-      &.small{
-        margin-bottom: 1em;
+        &.small{
+          margin-bottom: 1em;
+        }
+        
+        &::before,
+        &::after{
+          display: inline-block;
+          content: "";
+          border-top: .4rem solid $color-dark;
+          width: 5rem;
+          border-radius: 1em;
+          margin: 0 1.5rem;
+          transform: translateY(-0.5rem);
+        }
       }
 
-      &::before,
-      &::after{
-        display: inline-block;
-        content: "";
-        border-top: .4rem solid $color-dark;
-        width: 5rem;
-        border-radius: 1em;
-        margin: 0 1.5rem;
-        transform: translateY(-0.5rem);
+      .section{
+        margin: 4em 0em;
+
+        &.small{
+          margin: 7em 30em;
+        }
       }
     }
-
-    .section{
-      margin: 7em 30em;
-
-      &.small{
-        margin: 7em 30em;
-      }
+    
+      /* width */
+    ::-webkit-scrollbar {
+      width: .8em;
     }
-  }
-
-  /* width */
-::-webkit-scrollbar {
-  width: .8em;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background-color: $color-light; 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(145, 145, 145);
-  border-radius: 10px;
-  padding: 1em;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(129, 129, 129);
-}
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background-color: $color-light; 
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(145, 145, 145);
+      border-radius: 10px;
+      padding: 1em;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(129, 129, 129);
+    }
+ 
 </style>
